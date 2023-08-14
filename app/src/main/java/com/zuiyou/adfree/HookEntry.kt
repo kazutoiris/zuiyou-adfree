@@ -64,7 +64,7 @@ object HookEntry : IYukiHookXposedInit {
                         result = ""
                     }
                 }.onAllFailure {
-                    loggerE(msg = "Hook getChannel fail: ${it.message}")
+                    loggerE(msg = "Hook getConfigKey fail: ${it.message}")
                 }
             }
 
