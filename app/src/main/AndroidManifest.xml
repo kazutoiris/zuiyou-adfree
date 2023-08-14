@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+    <application
+        android:label="Zuiyou ADFree"
+        tools:ignore="MissingApplicationIcon">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="最右强力去广告" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />
+
+        <meta-data
+            android:name="xposedscope"
+            android:value="cn.xiaochuankeji.tieba"/>
+    </application>
+
+</manifest>
