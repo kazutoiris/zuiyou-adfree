@@ -53,9 +53,6 @@ object HookEntry : IYukiHookXposedInit {
                 }.onAllFailure {
                     loggerE(msg = "Hook getChannel fail: ${it.message}")
                 }
-            }
-
-            "cn.xiaochuankeji.hermes.core.provider.ADProvider".hook {
                 injectMember {
                     method {
                         name = "getConfigKey"
